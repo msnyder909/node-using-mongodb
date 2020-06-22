@@ -1,7 +1,9 @@
 import {
     addnewProduct,
     getProducts,
-    getProductWithID
+    getProductWithID,
+    updateProduct,
+    deleteProduct
 } from '../controllers/controllers';
 
 const routes = (app) => {
