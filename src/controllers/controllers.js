@@ -14,7 +14,7 @@ export const addnewProduct = (req, res) => {
     });
 }
 
-export const getProducts = () => {
+export const getProducts = (req, res) => {
     Product.find({}, (err, Product) => {
         if (err) {
             res.send(err);

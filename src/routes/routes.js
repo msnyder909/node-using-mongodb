@@ -1,5 +1,5 @@
 import {
-    addNewProduct,
+    addnewProduct,
     getProducts,
     getProductWithID
 } from '../controllers/controllers';
