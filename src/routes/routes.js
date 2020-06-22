@@ -12,7 +12,9 @@ const routes = (app) => {
         .post(addnewProduct);
 
     app.route('/products/:ProductID')
-        .get(getProductWithID);
+        .get(getProductWithID)
+        .put(updateProduct)
+        .delete(deleteProduct);
 }
 
 export default routes;
